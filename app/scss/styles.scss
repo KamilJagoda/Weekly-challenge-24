@@ -1,3 +1,8 @@
-body {
-	background: green;
-}
+@import "reset";
+@import "variables";
+@import "mixins";
+@import "typography";
+@import "global";
+@import "navigation";
+@import "footer";
+@import "page";

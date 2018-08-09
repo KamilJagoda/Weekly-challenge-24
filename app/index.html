@@ -1,17 +1,292 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<meta name="author" content="Kamil Jagoda">
 	<title>Weekly webdev challenge 24</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900%7COpen+Sans:300,300i,400,700,800&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-	asdwaww
-	<!--build:js js/main.min.js -->
-	<script type="text/javascript" src="js/app.js"></script>
-	<script type="text/javascript" src="js/other.js"></script>
-	<!-- endbuild -->
+
+	<nav class="navbar">
+		<div class="container">
+			<div class="row">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#" title="BRANDly">
+						<img src="img/logo.png" alt="BRANDly">
+					</a>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#" title="Home">Home</a></li>
+						<li><a href="#" title="Shop">Shop</a></li>
+						<li><a href="#" title="Brands">Brands</a></li>
+						<li><a href="#" title="Blog">Blog</a></li>
+						<li><a href="#" title="About">About</a></li>
+						<li><a href="#" title="Contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<div id="hero" class="hero">
+		<div class="slide">
+			<img src="img/hero-slider.jpg" alt="Slider Image">
+			<div class="slide__content">
+				<p class="slide__content__text medium top">Spring / Summer Collection</p>
+				<p class="slide__content__text large">Up to 60% discount on new arrivals</p>
+				<p class="slide__content__text medium">Trending new items from creators around the world</p>
+				<a href="#/" title="Go to shop" class="slide__content__button button-primary button-primary--white">Shop now</a>
+			</div>
+		</div>
+		<div class="slide">
+			<img src="img/hero-slider.jpg" alt="Slider Image">
+			<div class="slide__content">
+				<p class="slide__content__text medium top">Spring / Summer Collection</p>
+				<p class="slide__content__text large">Up to 60% discount on new arrivals</p>
+				<p class="slide__content__text medium">Trending new items from creators around the world</p>
+				<a href="#/" title="Go to shop" class="slide__content__button button-primary button-primary--white">Shop now</a>
+			</div>
+		</div>
+		<div class="slide">
+			<img src="img/hero-slider.jpg" alt="Slider Image">
+			<div class="slide__content">
+				<p class="slide__content__text medium top">Spring / Summer Collection</p>
+				<p class="slide__content__text large">Up to 60% discount on new arrivals</p>
+				<p class="slide__content__text medium">Trending new items from creators around the world</p>
+				<a href="#/" title="Go to shop" class="slide__content__button button-primary button-primary--white">Shop now</a>
+			</div>
+		</div>
+		<div class="slide">
+			<img src="img/hero-slider.jpg" alt="Slider Image">
+			<div class="slide__content">
+				<p class="slide__content__text medium top">Spring / Summer Collection</p>
+				<p class="slide__content__text large">Up to 60% discount on new arrivals</p>
+				<p class="slide__content__text medium">Trending new items from creators around the world</p>
+				<a href="#/" title="Go to shop" class="slide__content__button button-primary button-primary--white">Shop now</a>
+			</div>
+		</div>
+	</div>
+	<section class="latest-products">
+		<div class="container">
+			<div class="row">
+				<h1 class="section-title">Latest Products</h1>
+				<div class="block-container">
+					<div class="col-sm-4 col-xs-12">
+						<div class="block-container__block block-small">
+							<a href="#/" class="block-link"></a>
+							<img src="img/latest-1.jpg" alt="Man">
+							<span class="hover-effect"></span>
+							<p class="text">Men</p>
+						</div>
+					</div>
+					<div class="col-sm-4 col-xs-12">
+						<div class="block-container__block block-small">
+							<a href="#/" class="block-link"></a>
+							<img src="img/latest-2.jpg" alt="Woman">
+							<span class="hover-effect"></span>
+							<p class="text">Woman</p>
+						</div>
+					</div>
+					<div class="col-sm-4 col-xs-12">
+						<div class="block-container__block block-small">
+							<a href="#/" class="block-link"></a>
+							<img src="img/latest-3.jpg" alt="Watches">
+							<span class="hover-effect"></span>
+							<p class="text">Watches</p>
+						</div>
+					</div>
+				</div>
+				<div class="block-container medium">
+					<div class="col-sm-6 col-xs-12">
+						<div class="block-container__block block-medium">
+							<a href="#/" class="block-link"></a>
+							<img src="img/latest-4.jpg" alt="Promotion">
+							<span class="hover-effect"></span>
+							<p class="text">40% Off <br> New Autumn <br> Collection</p>
+						</div>
+					</div>
+					<div class="col-sm-6 col-xs-12">
+						<div class="block-container__block block-medium">
+							<a href="#/" class="block-link"></a>
+							<img src="img/latest-5.jpg" alt="Sale">
+							<span class="hover-effect"></span>
+							<p class="text text-uppercase">Mega Sale <br> On Items From <br> Spirit Collection</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="trending">
+		<div class="container">
+			<div class="row">
+				<h1 class="section-title">Trending Items</h1>
+				<div id="trending-slider">
+					<div class="item">
+						<div class="col-sm-6 col-xs-12">
+							<img src="img/product.jpg" alt="Trending Item Background">
+						</div>
+						<div class="col-sm-6 col-xs-12 item__info">
+							<h3 class="item__info__title text-uppercase">Nathan Stewart Jacket</h3>
+							<p class="item__info__text item__info__text--light">Summer/Autumn Collection</p>
+							<p class="item__info__text">Classic Nathan Stewart Jacket from his latest collection.
+								This item is loved by many just because of it’s simle style.
+								Simple lines,lovely texture,it suits almost everybody.
+								It comes in six different colors,and all sizes.</p>
+							<p class="item__info__text item__info__tip"><span class="tip text-uppercase">Fashion Tip:</span>With this jacket,Nathan Stewart sunglasses go hand in hand!</p>
+							<div class="radio-group">
+								<div class="form-radio">
+									<label>M<input type="radio" name="radio-buttons"></label>
+									<label>L<input type="radio" name="radio-buttons"></label>
+									<label>XL<input type="radio" name="radio-buttons"></label>
+									<label>XXL<input type="radio" name="radio-buttons"></label>
+								</div>
+							</div>
+							<div class="buttons-group">
+								<a href="#/" title="Go to shop" class="button-secondary button-secondary--dark" tabindex="-1">Shop now</a>
+								<a href="#/" title="Go to shop" class="button-secondary button-secondary--dark" tabindex="-1">Size guide</a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="col-sm-6 col-xs-12">
+							<img src="img/product.jpg" alt="Trending Item Background">
+						</div>
+						<div class="col-sm-6 col-xs-12 item__info">
+							<h3 class="item__info__title text-uppercase">Nathan Stewart Jacket</h3>
+							<p class="item__info__text item__info__text--light">Summer/Autumn Collection</p>
+							<p class="item__info__text">Classic Nathan Stewart Jacket from his latest collection.
+								This item is loved by many just because of it’s simle style.
+								Simple lines,lovely texture,it suits almost everybody.
+								It comes in six different colors,and all sizes.</p>
+							<p class="item__info__text item__info__tip"><span class="tip text-uppercase">Fashion Tip:</span>With this jacket,Nathan Stewart sunglasses go hand in hand!</p>
+							<div class="radio-group">
+								<div class="form-radio">
+									<label>M<input type="radio" name="radio-buttons"></label>
+									<label>L<input type="radio" name="radio-buttons"></label>
+									<label>XL<input type="radio" name="radio-buttons"></label>
+									<label>XXL<input type="radio" name="radio-buttons"></label>
+								</div>
+							</div>
+							<div class="buttons-group">
+								<a href="#/" title="Go to shop" class="button-secondary button-secondary--dark" tabindex="-1">Shop now</a>
+								<a href="#/" title="Go to shop" class="button-secondary button-secondary--dark" tabindex="-1">Size guide</a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="col-sm-6 col-xs-12">
+							<img src="img/product.jpg" alt="Trending Item Background">
+						</div>
+						<div class="col-sm-6 col-xs-12 item__info">
+							<h3 class="item__info__title text-uppercase">Nathan Stewart Jacket</h3>
+							<p class="item__info__text item__info__text--light">Summer/Autumn Collection</p>
+							<p class="item__info__text">Classic Nathan Stewart Jacket from his latest collection.
+								This item is loved by many just because of it’s simle style.
+								Simple lines,lovely texture,it suits almost everybody.
+								It comes in six different colors,and all sizes.</p>
+							<p class="item__info__text item__info__tip"><span class="tip text-uppercase">Fashion Tip:</span>With this jacket,Nathan Stewart sunglasses go hand in hand!</p>
+							<div class="radio-group">
+								<div class="form-radio">
+									<label>M<input type="radio" name="radio-buttons"></label>
+									<label>L<input type="radio" name="radio-buttons"></label>
+									<label>XL<input type="radio" name="radio-buttons"></label>
+									<label>XXL<input type="radio" name="radio-buttons"></label>
+								</div>
+							</div>
+							<div class="buttons-group">
+								<a href="#/" title="Go to shop" class="button-secondary button-secondary--dark" tabindex="-1">Shop now</a>
+								<a href="#/" title="Go to shop" class="button-secondary button-secondary--dark" tabindex="-1">Size guide</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="blog">
+		<div class="container">
+			<div class="row">
+				<h1 class="section-title">From The Blog</h1>
+				<div id="blog-slider">
+					<div class="col-lg-6 post">
+						<img src="img/blog-1.jpg" alt="Blog Post">
+						<div class="post__content">
+							<h2 class="post__content__title"><a href="#/">German Fashion Wizards</a></h2>
+							<p class="post__content__author">By James Steed<span>|</span>Fashion</p>
+							<p class="post__content__text">This week we had the chance of interviewing two creative artists from Germany. These guys are simply amazing at what they do with the
+								European fashion scene and this year at Paris Fashion Week they
+								introduced their new collection.</p>
+							<a href="#/" title="Read More" class="button-secondary button-secondary--dark">Read More</a>
+						</div>
+					</div>
+					<div class="col-lg-6 post">
+						<img src="img/blog-2.jpg" alt="Blog Post">
+						<div class="post__content">
+							<h2 class="post__content__title"><a href="#/">Anne Stewart’s Sunglasses</a></h2>
+							<p class="post__content__author">By Marry Beard<span>|</span>Trending</p>
+							<p class="post__content__text">Just amazing! That is how i can describe this person. So creative,so inspiring. I was watching her create in her small studio in London and i was amazed at how every little detail gets included in her creaions. From frames,to glass thickness she blew me away...</p>
+							<a href="#/" title="Read More" class="button-secondary button-secondary--dark">Read More</a>
+						</div>
+					</div>
+					<div class="col-lg-6 post">
+						<img src="img/blog-1.jpg" alt="Blog Post">
+						<div class="post__content">
+							<h2 class="post__content__title"><a href="#/">German Fashion Wizards</a></h2>
+							<p class="post__content__author">By James Steed<span>|</span>Fashion</p>
+							<p class="post__content__text">This week we had the chance of interviewing two creative artists from Germany. These guys are simply amazing at what they do with the
+								European fashion scene and this year at Paris Fashion Week they
+								introduced their new collection.</p>
+							<a href="#/" title="Read More" class="button-secondary button-secondary--dark">Read More</a>
+						</div>
+					</div>
+					<div class="col-lg-6 post">
+						<img src="img/blog-2.jpg" alt="Blog Post">
+						<div class="post__content">
+							<h2 class="post__content__title"><a href="#/">Anne Stewart’s Sunglasses</a></h2>
+							<p class="post__content__author">By Marry Beard<span>|</span>Trending</p>
+							<p class="post__content__text">Just amazing! That is how i can describe this person. So creative,so inspiring. I was watching her create in her small studio in London and i was amazed at how every little detail gets included in her creaions. From frames,to glass thickness she blew me away...</p>
+							<a href="#/" title="Read More" class="button-secondary button-secondary--dark">Read More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="newsletter">
+		<div class="container">
+			<div class="row">
+				<p class="newsletter__text">Subscribe to our newsletter to reveive latest news and offers</p>
+				<div class="newsletter__inputs">
+					<span class="input-icon"><img src="img/email-icon.png" alt="Email"></span>
+					<input id="email" type="email" class="form-control" name="email" placeholder="Email Address">
+				</div>
+				<a href="#/" title="Subscribe" class="button-fill button-fill--white">Subscribe</a>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<p class="footer-text">Made with <img src="./img/heart.png" alt="Heart"> by WebDonut.net</p>
+	</footer>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js	"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>

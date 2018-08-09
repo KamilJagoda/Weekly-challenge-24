@@ -1,2 +1,15 @@
-# Weekly-challenge-24
-Weekly webdev challenge 24
+# Weekly Dev Challenge #24
+
+In project I used:    
+-Gulp     
+-NPM       
+-Scss        
+-Bootstrap        
+-jQuery
+-HTML     
+-CSS       
+-JavaScript
+
+-Slick-slider      
+
+

@@ -27,9 +27,9 @@ gulp.task('js', function () {
 });
 
 gulp.task('watch', ['default'], function () {
-	gulp.watch('app/scss/styles.scss', ['sass']);
+	gulp.watch('app/scss/**/*.scss', ['sass']);
 	gulp.watch('app/js/**/*.js', ['js']);
-	gulp.watch('app/html/**/*.html', ['static']);
+	gulp.watch('app/*.html', ['static']);
 	gulp.watch('app/css/**/*.css', ['static']);
 
 });
@@ -40,7 +40,9 @@ gulp.task('clean', function () {
 gulp.task('static', function(){
 	gulp.src('./app/**/*.html').pipe(gulp.dest('./dist'));
 	gulp.src('./app/img/**/*.*').pipe(gulp.dest('./dist/img/'));
-    gulp.src('./app/css/**/*.css').pipe(gulp.dest('./dist/css/'));
+    gulp.src('./app/css/**/*.css').pipe(gulp.dest('./dist/css'));
+    gulp.src('./app/js/vendor/*.js').pipe(gulp.dest('./dist/js'));
+    gulp.src('./app/fonts/**/*.*').pipe(gulp.dest('./dist/fonts'));
 });
 
 gulp.task('build', ['clean'], function () {
