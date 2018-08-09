@@ -12,4 +12,4 @@ In project I used:
 
 -Slick-slider      
 
-
+Live here : https://kamiljagoda.github.io/Weekly-challenge-24/dist/index.html
