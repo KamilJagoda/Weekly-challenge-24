@@ -4,7 +4,7 @@ In project I used:
 -Gulp     
 -NPM       
 -Scss        
--Bootstrap        
+-Bootstrap 3.3.7        
 -jQuery
 -HTML     
 -CSS       
@@ -13,3 +13,5 @@ In project I used:
 -Slick-slider      
 
 Live here : https://kamiljagoda.github.io/Weekly-challenge-24/dist/index.html
+
+Challenge from facebook group "Weekly WebDev Challenge"
