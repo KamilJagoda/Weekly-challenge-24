@@ -1,0 +1,9 @@
+zadanie 24
+
+1. start 27.11
+2. html/css/js (w tym jquery), bez frameworków
+3. rwd obowiazkowo - polecany Bootstrap
+4. inspiracji do efektu hover w sekcji latest products szukajcie tutaj:
+http://tympanus.net/Development/HoverEffectIdeas/
+5. Sekcja trening items to karuzela
+6. przydatne pojêcia: hover effects css, content slider
